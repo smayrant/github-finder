@@ -9,10 +9,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 What you need to install the app and how to install it(them)
 
-- npm
+- yarn
 
 ```
-npm install npm@latest -g
+https://yarnpkg.com/lang/en/docs/install/
 ```
 
 ### Installing
@@ -20,8 +20,23 @@ npm install npm@latest -g
 1. Clone the repo
 
 ```
-git clone 
+git clone https://github.com/smayrant/github-finder.git
 ```
 
-2. Run npm install inside project root
+2. Run yarn inside project root
 
+```
+yarn 
+```
+
+3. Start the server
+
+```
+yarn start
+```
+
+4. Navigate to local host
+
+```
+http://localhost:3000
+```
