@@ -20,6 +20,9 @@ const Navbar = ({ title }) => {
 		</nav>
 	);
 };
+Navbar.defaultProps = {
+	title: "Github Finder"
+};
 
 Navbar.propTypes = {
 	title: PropTypes.string.isRequired
